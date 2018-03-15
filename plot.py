@@ -16,6 +16,7 @@ fig = plt.figure(1, figsize=(5,5), dpi=90)
 ax = fig.add_subplot(111)
 ax.plot(x, y)
 ax.set_title('Polygon Edges')
+plt.show()
 
 xrange = [-1, 3]
 yrange = [-1, 3]
